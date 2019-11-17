@@ -29,7 +29,7 @@
 Lock lock = new DistributedLock("ip:port,.....");	lock.lock();     lock.unlock();
 
 使用锁的场景（条件）：
-1.共享资源
+1.共享资源 
 2.共享资源是互斥的
 3.多任务的环境
 
